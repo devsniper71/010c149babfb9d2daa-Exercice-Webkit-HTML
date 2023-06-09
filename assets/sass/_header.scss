@@ -2,7 +2,6 @@ header {
   .navlist {
     a {
       position: relative;
-
       &.active {
         &:after {
           position: absolute;
@@ -17,12 +16,16 @@ header {
           opacity: 0;
         }
       }
-
       &.active {
         &:after {
           opacity: 1;
         }
       }
+      //   &:hover {
+      //     &::after {
+      //       opacity: 1;
+      //     }
+      //   }
     }
   }
 }
